@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    position: fixed;
+    top: -100%;
+    font-family: 'Times New Roman';
+    font-size: 1.8em;
+    font-style: italic;
+    color: white;
+}
+
+#content {
+    position: fixed;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#countLabel {
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: "Tahoma";
+    color: white;
+}
+
+#btnContainer {
+    text-align: center;
+}
+
+.buttons {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    font-family: 'Times New Roman';
+    color: white;
+    background-color: rgb(92, 176, 255);
+    border-radius: 10px;
+    border-width: 0px;
+    transition: background-color 0.25s;
+}
+
+.buttons:hover {
+    cursor: pointer;
+    background-color: rgb(131, 195, 255);
+}
+
+.buttons:active {
+    background-color: rgb(255, 255, 255);
+}
